@@ -16,27 +16,33 @@ namespace BAI
         /// ------------------------------------------------------------
         public static void Opdr1FilterList(List<int> lijst)
         {
-            //lijst = lijst.ToList();
-
+            // Maak een dictionary aan
             Dictionary<int, int> dic = new Dictionary<int, int>();
-            Console.WriteLine($"Lijst count is {lijst.Count}");
 
+            // Loop door de lijst heen
             for (int i = 0; i < lijst.Count; i++)
             {
+                // Als item van de lijst al bestaat in de dictionary doe dan plus een
                 if (dic.ContainsKey(lijst[i]))
                 {
                     dic[lijst[i]] += 1;
                 }
+                // bestaat hij nog niet in de lijst voeg hem dan toe aan de lijst
                 else
                 {
                     dic.Add(lijst[i], 1);
                 }
             }
 
+            // Maak een nieuwe lijst aan met de waardes van lijst, maar doe geen reference, zodat
+            // we als we item van de lijst verwijderen deze ook niet van deze lijst wordt verwijderd
             List<int> l = lijst.ToList();
 
+            // Loop door de lijst heen. We gebruiken hier de l.count, omdat er items van de lijst verwijderd worden
+            // en als we lijst.count gebruiken we dan elke keer een count minder krijgen, omdat deze wordt verwijderd van de lijst
             for (int i = 0; i < l.Count; i++)
             {
+                // Als item meer dan 1x voorkomt dan pas verwijderen
                 if (dic[l[i]] < 2)
                 {
                     lijst.Remove(l[i]);

@@ -11,3 +11,16 @@
 /Users/rolinbos/Downloads/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht1.dll
 /Users/rolinbos/Downloads/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht1.pdb
 /Users/rolinbos/Downloads/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht1.genruntimeconfig.cache
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/bin/Debug/netcoreapp3.1/BAI - Aftekenopdracht1.deps.json
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/bin/Debug/netcoreapp3.1/BAI - Aftekenopdracht1.runtimeconfig.json
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/bin/Debug/netcoreapp3.1/BAI - Aftekenopdracht1.runtimeconfig.dev.json
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/bin/Debug/netcoreapp3.1/BAI - Aftekenopdracht1.dll
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/bin/Debug/netcoreapp3.1/BAI - Aftekenopdracht1.pdb
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht1.csproj.AssemblyReference.cache
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht1.AssemblyInfoInputs.cache
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht1.AssemblyInfo.cs
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht1.csproj.CoreCompileInputs.cache
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht1.dll
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht1.pdb
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht1.genruntimeconfig.cache

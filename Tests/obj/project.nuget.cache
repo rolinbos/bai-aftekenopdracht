@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jXmi0xYiak8AJKbSyDI092AUAIsvIv3u7L6+aXSnhSlYo6jCDTteWO2F9zFrqJmqzD5Jbiuaq0pKow7t+tt1Fw==",
+  "dgSpecHash": "ksPcR3ZGA8Egvj7+5Se6A6FnccIvyDZCN30t6jKAqNX5rOc7ZLuSh4yw0qMA4+3SxWMQpowNktruAgAXQEzpzg==",
   "success": true,
-  "projectFilePath": "/Users/rolinbos/Downloads/BAI - Aftekenopdracht1/Tests/Tests.csproj",
+  "projectFilePath": "/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/Tests/Tests.csproj",
   "expectedPackageFiles": [
     "/Users/rolinbos/.nuget/packages/microsoft.codecoverage/16.5.0/microsoft.codecoverage.16.5.0.nupkg.sha512",
     "/Users/rolinbos/.nuget/packages/microsoft.csharp/4.0.1/microsoft.csharp.4.0.1.nupkg.sha512",

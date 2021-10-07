@@ -16,33 +16,33 @@ namespace BAI
         /// ------------------------------------------------------------
         public static void Opdr1FilterList(List<int> lijst)
         {
-            lijst = lijst.ToList();
+            //lijst = lijst.ToList();
 
             Dictionary<int, int> dic = new Dictionary<int, int>();
-            
-            foreach (int item in lijst)
+            Console.WriteLine($"Lijst count is {lijst.Count}");
+
+            for (int i = 0; i < lijst.Count; i++)
             {
-                if (dic.ContainsKey(item))
+                if (dic.ContainsKey(lijst[i]))
                 {
-                    dic[item] += 1;
+                    dic[lijst[i]] += 1;
                 }
                 else
                 {
-                    dic.Add(item, 1);
+                    dic.Add(lijst[i], 1);
                 }
             }
 
-            foreach (int item in lijst)
+            List<int> l = lijst.ToList();
+
+            for (int i = 0; i < l.Count; i++)
             {
-                if (dic[item] <= 1)
+                if (dic[l[i]] < 2)
                 {
-                    lijst.RemoveAll(item => item.Contains(item));
+                    lijst.Remove(l[i]);
                 }
             }
-
-            Console.WriteLine();
         }
-
 
         /// ------------------------------------------------------------
         /// <summary>

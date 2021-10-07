@@ -4645,11 +4645,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rolinbos/Downloads/BAI - Aftekenopdracht1/Tests/Tests.csproj",
+      "projectUniqueName": "/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/Tests/Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "/Users/rolinbos/Downloads/BAI - Aftekenopdracht1/Tests/Tests.csproj",
+      "projectPath": "/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/Tests/Tests.csproj",
       "packagesPath": "/Users/rolinbos/.nuget/packages/",
-      "outputPath": "/Users/rolinbos/Downloads/BAI - Aftekenopdracht1/Tests/obj/",
+      "outputPath": "/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/Tests/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -4667,8 +4667,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/rolinbos/Downloads/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1.csproj": {
-              "projectPath": "/Users/rolinbos/Downloads/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1.csproj"
+            "/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1.csproj": {
+              "projectPath": "/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1.csproj"
             }
           }
         }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rolinbos/Downloads/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1.csproj",
+      "projectUniqueName": "/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1.csproj",
       "projectName": "BAI - Aftekenopdracht1",
-      "projectPath": "/Users/rolinbos/Downloads/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1.csproj",
+      "projectPath": "/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1.csproj",
       "packagesPath": "/Users/rolinbos/.nuget/packages/",
-      "outputPath": "/Users/rolinbos/Downloads/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/obj/",
+      "outputPath": "/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht1/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

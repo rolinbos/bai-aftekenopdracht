@@ -34,19 +34,14 @@ namespace BAI
                 }
             }
 
-            // Maak een nieuwe lijst aan met de waardes van lijst, maar doe geen reference, zodat
-            // we als we item van de lijst verwijderen deze ook niet van deze lijst wordt verwijderd
-            List<int> l = lijst.ToList();
-
             // Loop door de lijst heen. We gebruiken hier de l.count, omdat er items van de lijst verwijderd worden
             // en als we lijst.count gebruiken we dan elke keer een count minder krijgen, omdat deze wordt verwijderd van de lijst
-            for (int i = 0; i < l.Count; i++)
+            for (int i = 0; i < lijst.Count; i++)
             {
                 // Als item meer dan 1x voorkomt dan pas verwijderen
-                if (dic[l[i]] < 2)
+                if (dic[lijst[i]] < 2)
                 {
                     lijst.RemoveAt(i);
-                    l.RemoveAt(i);
 
                     i -= 1;
                 }

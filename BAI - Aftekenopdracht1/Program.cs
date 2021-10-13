@@ -45,7 +45,10 @@ namespace BAI
                 // Als item meer dan 1x voorkomt dan pas verwijderen
                 if (dic[l[i]] < 2)
                 {
-                    lijst.Remove(l[i]);
+                    lijst.RemoveAt(i);
+                    l.RemoveAt(i);
+
+                    i -= 1;
                 }
             }
         }
@@ -106,32 +109,57 @@ namespace BAI
         /// <param name="count">Het aantal getallen</param>
         /// <returns>De stack met unieke random getallen</returns>
         /// ------------------------------------------------------------
+        //public static Stack<int> Opdr3RandomNumbers(int lower, int upper, int count)
+        //{
+        //    // Init alle benodige vars
+        //    Stack<int> stack = new Stack<int>();
+        //    List<int> list = new List<int>();
+        //    Random random = new Random();
+
+        //    // Zet alle mogelijke opties in een dict
+        //    for (int i = lower; i <= upper; i++)
+        //    {
+        //        list.Add(i);
+        //    }
+
+        //    // Loop erdoor heen zolang we het aantal nog niet hebben bereikt
+        //    while (count > 0)
+        //    {
+        //        // maak een random nummer aan die in de lijst zit
+        //        int randomNumber = random.Next(0, list.Count);
+        //        // Push nummer naar de stack
+        //        stack.Push(list[randomNumber]);
+
+        //        // Verwijder nummer van lijst
+        //        list.Remove(list[randomNumber]);
+
+        //        // Zet de count 1 naar beneden
+        //        count -= 1;
+        //    }
+
+        //    return stack;
+        //}
+
+
         public static Stack<int> Opdr3RandomNumbers(int lower, int upper, int count)
         {
             // Init alle benodige vars
             Stack<int> stack = new Stack<int>();
-            List<int> list = new List<int>();
+            Dictionary<int, int> dic = new Dictionary<int, int>();
             Random random = new Random();
-
-            // Zet alle mogelijke opties in een dict
-            for (int i = lower; i <= upper; i++)
-            {
-                list.Add(i);
-            }
 
             // Loop erdoor heen zolang we het aantal nog niet hebben bereikt
             while (count > 0)
             {
-                // maak een random nummer aan die in de lijst zit
-                int randomNumber = random.Next(0, list.Count);
-                // Push nummer naar de stack
-                stack.Push(list[randomNumber]);
+                int randomNumber = random.Next(lower, upper + 1);
 
-                // Verwijder nummer van lijst
-                list.Remove(list[randomNumber]);
+                if (! dic.ContainsKey(randomNumber))
+                {
+                    dic.Add(randomNumber, randomNumber);
+                    stack.Push(randomNumber);
 
-                // Zet de count 1 naar beneden
-                count -= 1;
+                    count -= 1;
+                }
             }
 
             return stack;
@@ -167,23 +195,23 @@ namespace BAI
             Opdr1FilterList(list);
             PrintEnumerable(list);
 
-            Console.WriteLine();
-            Console.WriteLine("=== Opdracht 2 : Stack / Queue ===");
-            queue = Opdr2aQueue50();
-            PrintEnumerable(queue);
-            stack = Opdr2bStackFromQueue(queue);
-            PrintEnumerable(stack);
+            //Console.WriteLine();
+            //Console.WriteLine("=== Opdracht 2 : Stack / Queue ===");
+            //queue = Opdr2aQueue50();
+            //PrintEnumerable(queue);
+            //stack = Opdr2bStackFromQueue(queue);
+            //PrintEnumerable(stack);
 
-            Console.WriteLine();
-            Console.WriteLine("=== Opdracht 3 : Random number ===");
-            stack = Opdr3RandomNumbers(100, 150, 10);
-            PrintEnumerable(stack);
-            stack = Opdr3RandomNumbers(10, 15, 6);
-            stack = Opdr3RandomNumbers(10, 15, 6);
-            PrintEnumerable(stack);
-            stack = Opdr3RandomNumbers(10_000, 50_000, 40_001);
-            PrintEnumerable(stack);
-            Console.WriteLine("DONE");
+            //Console.WriteLine();
+            //Console.WriteLine("=== Opdracht 3 : Random number ===");
+            //stack = Opdr3RandomNumbers(100, 150, 10);
+            //PrintEnumerable(stack);
+            //stack = Opdr3RandomNumbers(10, 15, 6);
+            //stack = Opdr3RandomNumbers(10, 15, 6);
+            //PrintEnumerable(stack);
+            //stack = Opdr3RandomNumbers(10_000, 50_000, 40_001);
+            //PrintEnumerable(stack);
+            //Console.WriteLine("DONE");
         }
     }
 }

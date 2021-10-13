@@ -1,18 +1,17 @@
 ﻿<Properties StartupConfiguration="{DA8724A8-6470-490B-8451-513DC3AC99D8}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Tests/Opg1Tests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BAI - Aftekenopdracht1/Program.cs">
     <Files>
-      <File FileName="BAI - Aftekenopdracht1/Program.cs" Line="151" Column="64" />
+      <File FileName="BAI - Aftekenopdracht1/Program.cs" Line="36" Column="1" />
       <File FileName="Tests/Opg2Tests.cs" />
-      <File FileName="Tests/Opg1Tests.cs" Line="11" Column="57" />
+      <File FileName="Tests/Opg1Tests.cs" />
       <File FileName="Tests/Opg3Tests.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BAI - Aftekenopdracht1" expanded="True">
-            <Node name="BAI - Aftekenopdracht1" expanded="True" />
-            <Node name="Tests" expanded="True">
-              <Node name="Opg1Tests.cs" selected="True" />
+            <Node name="BAI - Aftekenopdracht1" expanded="True">
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

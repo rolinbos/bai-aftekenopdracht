@@ -1,0 +1,13 @@
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht 2/BAI - Aftekenopdracht2/bin/Debug/netcoreapp3.1/BAI - Aftekenopdracht2.deps.json
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht 2/BAI - Aftekenopdracht2/bin/Debug/netcoreapp3.1/BAI - Aftekenopdracht2.runtimeconfig.json
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht 2/BAI - Aftekenopdracht2/bin/Debug/netcoreapp3.1/BAI - Aftekenopdracht2.runtimeconfig.dev.json
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht 2/BAI - Aftekenopdracht2/bin/Debug/netcoreapp3.1/BAI - Aftekenopdracht2.dll
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht 2/BAI - Aftekenopdracht2/bin/Debug/netcoreapp3.1/BAI - Aftekenopdracht2.pdb
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht 2/BAI - Aftekenopdracht2/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht2.csproj.AssemblyReference.cache
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht 2/BAI - Aftekenopdracht2/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht 2/BAI - Aftekenopdracht2/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht2.AssemblyInfoInputs.cache
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht 2/BAI - Aftekenopdracht2/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht2.AssemblyInfo.cs
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht 2/BAI - Aftekenopdracht2/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht2.csproj.CoreCompileInputs.cache
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht 2/BAI - Aftekenopdracht2/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht2.dll
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht 2/BAI - Aftekenopdracht2/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht2.pdb
+/Users/rolinbos/code/c-sharp/BAI - Aftekenopdracht1/BAI - Aftekenopdracht 2/BAI - Aftekenopdracht2/obj/Debug/netcoreapp3.1/BAI - Aftekenopdracht2.genruntimeconfig.cache
